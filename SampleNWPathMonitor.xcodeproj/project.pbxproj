@@ -15,6 +15,7 @@
 		B22BD4C12609ACAE006F5F44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22BD4BF2609ACAE006F5F44 /* LaunchScreen.storyboard */; };
 		B22BD4CC2609ACAF006F5F44 /* SampleNWPathMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BD4CB2609ACAF006F5F44 /* SampleNWPathMonitorTests.swift */; };
 		B22BD4D72609ACAF006F5F44 /* SampleNWPathMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BD4D62609ACAF006F5F44 /* SampleNWPathMonitorUITests.swift */; };
+		B22BD4E82609AD88006F5F44 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BD4E72609AD88006F5F44 /* NetWorkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B22BD4D22609ACAF006F5F44 /* SampleNWPathMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleNWPathMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22BD4D62609ACAF006F5F44 /* SampleNWPathMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleNWPathMonitorUITests.swift; sourceTree = "<group>"; };
 		B22BD4D82609ACAF006F5F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22BD4E72609AD88006F5F44 /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				B22BD4B42609ACAA006F5F44 /* AppDelegate.swift */,
 				B22BD4B62609ACAA006F5F44 /* SceneDelegate.swift */,
 				B22BD4B82609ACAA006F5F44 /* ViewController.swift */,
+				B22BD4E72609AD88006F5F44 /* NetWorkManager.swift */,
 				B22BD4BA2609ACAA006F5F44 /* Main.storyboard */,
 				B22BD4BD2609ACAE006F5F44 /* Assets.xcassets */,
 				B22BD4BF2609ACAE006F5F44 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B22BD4E82609AD88006F5F44 /* NetWorkManager.swift in Sources */,
 				B22BD4B92609ACAA006F5F44 /* ViewController.swift in Sources */,
 				B22BD4B52609ACAA006F5F44 /* AppDelegate.swift in Sources */,
 				B22BD4B72609ACAA006F5F44 /* SceneDelegate.swift in Sources */,
